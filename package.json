@@ -1,0 +1,32 @@
+{
+  "name": "demo-node-express",
+  "version": "0.0.1",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "^0.29.0",
+    "morgan": "~1.9.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.14",
+    "request": "^2.88.2"
+  },
+  "description": "This is a repository to make request to omdbapi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rizkialfiansss/demo-node-express.git"
+  },
+  "author": "Rizki Alfian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rizkialfiansss/demo-node-express/issues"
+  },
+  "homepage": "https://github.com/rizkialfiansss/demo-node-express#readme"
+}
